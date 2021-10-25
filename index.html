@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Positioning And Floating Elements | The Odin Project</title>
 </head>
 <body>
-    
+    <header>
+        <div id="header__title">
+            <aside>
+                <a href="#" id="header__newsletter--link">NEWSLETTER</a>
+                <p id="header__newsletter--text">Sign up and read our regular email newletters</p>
+            </aside>
+            <h1>NewScientist</h1>
+            <button id="header__button--subscribe">SUBSCRIBE AND SAVE 69%</button>
+        </div>
+        <div id="header__navBar">
+            <nav>
+                <ul id="header__mainNav">
+                    <li><a href="#" class="mainLink">News</a></li>
+                    <li><a href="#" class="mainLink">Podcasts</a></li>
+                    <li><a href="#" class="mainLink">Video</a></li>
+                    <li><a href="#" class="mainLink">Technology</a></li>
+                    <li><a href="#" class="mainLink active">Space</a></li>
+                    <li><a href="#" class="mainLink">Physics</a></li>
+                    <li><a href="#" class="mainLink">Health</a></li>
+                    <li><a href="#" class="mainLink">More</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Jobs</a></li>
+                </ul>
+            </nav>
+            <div id="header__links">
+                <a href="#"><img src="assets/images/baseline_person_black_24dp.png">Sign In</a>
+                <a href="#"><img src="assets/images/baseline_search_black_24dp.png">Search</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <h1>Ancient lake in Mars’s Gale crater may have actually been a small pond</h1>
+            <div class="social-media-links">
+                <a href="#"><img src="assets/images/107175_circle_facebook_icon.png"></a>
+                <a href="#"><img src="assets/images/294709_circle_twitter_icon.png"></a>
+                <a href="#"><img src="assets/images/3225179_app_logo_media_popular_social_icon.png"></a>
+                <a href="#"><img src="assets/images/317750_linkedin_icon.png"></a>
+                <a href="#"><img src="assets/images/3225187_app_logo_media_popular_reddit_icon.png"></a>
+                <a href="#"><img src="assets/images/baseline_email_white_24dp.png" class="icon"></a>
+                <a href="#"><img src="assets/images/baseline_print_white_24dp.png" class="icon"></a>
+            </div>
+            <p><a href="#" id="article__tag--gray"><strong>SPACE</strong></a> 6 August 2021</p>
+            <p>By <a href="#"><strong>Leah Crane</strong></a></p>
+            <figure>
+                <img src="assets/images/06-aug_mars-sediments.jpg">
+                <figcaption>
+                    <small><strong>The rocks inside Gale crater hint there may not have been a large lake there after all</strong></small>
+                    <br>
+                    <small>NASA/JPL-Caltech/University of Arizona</small>
+                </figcaption>
+            </figure>
+            <p class="article">A purported ancient lake on Mars may have been far smaller than researchers thought. NASA’s Curiosity rover has been <a href="#">exploring Gale crater</a> for more than eight years, and while early observations suggested the entire crater may once have been filled with water, a new analysis implies that it just had a series of ponds instead.</p>
+
+            <p class="article">Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of alteration to determine how rocks were weathered over time. <a href="#">Joseph Michalski</a> at the University of Hong Kong and his colleagues have suggested that because this measure was developed for use on Earth, it may not be valid in the extreme Martian climate.</p>
+
+            <p class="article">Instead, they analysed the concentrations of various compounds that are expected to change based on different types of weathering over time. They found that some of the layers of rock Curiosity examined did interact with water at some point in their past, but more are likely to have formed outside of the water.</p>
+
+            <blockquote><strong>Read more:</strong> <a href="#">Microbes burping methane on Mars may be right next to NASA rover</a></blockquote>
+            <p class="article">“Over hundreds of metres of strata, it seems that the only layers that are demonstrably lacustrine [formed in a lake] are the lower few metres,” says Michalski. “Of the rocks visited by the rover… the fraction that is demonstrably lacustrine is something like 1 per cent.”</p>
+
+            <p class="article">These rocks were mostly in the lowest few metres of <a href="#">sediments in the crater</a>, suggesting the lake was not nearly as deep or extensive as we thought. “There was likely a small lake or more likely a series of small lakes in the floor of Gale crater, but these were shallow ponds,” says Michalski.</p>
+
+            <p class="article">The rocks that didn’t form in water appeared to be volcanic, so Michalski says that they may have formed out of ash from volcanic eruptions after the water in Gale crater had dried up. Observations by other Mars missions have hinted that these sediments were deposited by wind, not water, so this may solve that mismatch.</p>
+
+            <p class="article"><strong id="journal-reference">Journal reference:</strong> <em>Science Advances</em>, <a href="#">DOI: 10.1126/sciadv.abh2687</a></p>
+
+            <p class="article"><em>Sign up to our free <a href="#">Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</em></p>
+
+            <p class="article"><strong id="more-reference">More on these topics:</strong><button class="tag-button">PLANETS</button><button class="tag-button">MARS</button></p>
+        </article>
+        <section class="float-parent">
+            <h2 id="sponsored__title">SPONSORED CONTENT</h2>
+            <img id="sponsored__image"src="assets/images/E03ABBB29C6A435CB42F09D2B5D0E3C2.webp">
+            <h3 id="sponsored__heading">Satellite systems innovation critical for extreme...</h3>
+            <p class="article">Advertorial This Northern Hemisphere summer gave a grim insight into the impact of extreme weather on communities...</p>
+            <p class="article">Sponsored by <a href="#">EUMETSAT</a></p>
+        </section>
+        <section id="magazine-content">
+            <div class="social-media-links">
+                <a href="#"><img src="assets/images/107175_circle_facebook_icon.png"></a>
+                <a href="#"><img src="assets/images/294709_circle_twitter_icon.png"></a>
+                <a href="#"><img src="assets/images/3225179_app_logo_media_popular_social_icon.png"></a>
+                <a href="#"><img src="assets/images/317750_linkedin_icon.png"></a>
+                <a href="#"><img src="assets/images/3225187_app_logo_media_popular_reddit_icon.png"></a>
+                <a href="#"><img src="assets/images/baseline_email_white_24dp.png" class="icon"></a>
+                <a href="#"><img src="assets/images/baseline_print_white_24dp.png" class="icon"></a>
+            </div>
+            <div id="magazine-content__links">
+                <img src="assets/images/2310_cover_uk-scaled.jpg">
+                <div id="magazine-content__links--buttons">
+                    <button id="subscribe">SUBSCRIBE</button>
+                    <button id="app">VIEW IN THE APP</button>
+                    <button id="print">BUY IN PRINT</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <ul>
+            <li class="active">Trending</li>
+            <li>Latest</li>
+            <li>Video</li>
+            <li>Free</li>
+        </ul>
+        <ol>
+            <li>How much less likely are you to spread covid-19 if you're vaccinated?</li>
+            <li>How <em>Minecraft</em> is helping children with autism make new friends</li>
+            <li>How to bake a souffle according to science</li>
+        </ol>
+    </aside>
+    <footer>
+        <!-- <section>
+            <h2>MORE FROM NEW SCIENTIST</h2>
+            <div>
+                <img src="">
+                <p>Saturn's moon Titan may be doomed to fly away or smash into the planet</p>
+            </div>
+            <div>
+                <img src="">
+                <p>Steve Chien interview: Why NASA is inventing curious AI for deep space</p>
+            </div>
+            <div>
+                <img src="">
+                <p>Meet Mr Groxx, the crypto-trading hamster beating human investors</p>
+            </div>
+            <div>
+                <img src="">
+                <p>Arid meteor shower makes new appearance in souther hemisphere skies</p>
+            </div>
+        </section> -->
+        <section>
+            <h2 id="footer__newsletter--title">Sign up to our newsletter</h2>
+            <form>
+                <label for="email">Enter your email address to get started</label>
+                <input type="email" id="email" placeholder="Your email">
+                <button id="footer__newsletter--button">SIGN UP</button>
+            </form>
+        </section>
+        <p class="article"><a href="#">Contact us</a> | <a href="#">Help</a> | <a href="#">About us</a> | <a href="#">Privacy policy</a> | <a href="#">Cookie policy</a> | <a href="#">Terms & conditions</a></p>
+        <hr>
+        <p class="article"><a href="#">Advertise</a> | <a href="#">Write for us</a> | <a href="#">Events</a> | <a href="#">Science jobs</a> | <a href="#">SyndicationRSS feeds</a></p>
+        <p class="article"><a href="#">Gift subscriptions</a> | <a href="#">Student subscriptions</a> | <a href="#">Educational subscriptions</a> | <a href="#">Corporate subscriptions</a></p>
+    </footer>
 </body>
 </html>
